@@ -1,0 +1,9 @@
+{
+  "name": "tamperproof",
+  "version": "0.1.0",
+  "description": "Stops coding agents from cheating: blocks edits to your tests and blocks 'done' until the real tests pass.",
+  "author": { "name": "Matt Busel", "url": "https://github.com/Mattbusel" },
+  "repository": "https://github.com/Mattbusel/tamperproof",
+  "license": "MIT",
+  "keywords": ["tests", "guardrails", "agents", "verification", "hooks"]
+}

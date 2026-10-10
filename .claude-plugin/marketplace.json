@@ -1,0 +1,13 @@
+{
+  "name": "tamperproof",
+  "description": "Stops coding agents from cheating: no editing tests to make them pass, no saying done until the real tests pass.",
+  "owner": { "name": "Matt Busel", "url": "https://github.com/Mattbusel" },
+  "plugins": [
+    {
+      "name": "tamperproof",
+      "description": "Blocks agent edits to your tests and blocks 'done' until your test command passes.",
+      "source": "./plugins/tamperproof",
+      "category": "development"
+    }
+  ]
+}

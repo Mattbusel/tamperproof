@@ -1,0 +1,13 @@
+<!doctype html><meta charset=utf-8><style>
+body{margin:0;width:1200px;background:#0b0e13;font-family:Consolas,"Cascadia Mono",monospace;color:#d7dce4}
+.w{padding:56px 60px}.h{font:800 46px "Segoe UI",Arial;color:#fff;margin-bottom:8px}.s{font:24px "Segoe UI",Arial;color:#8a94a3;margin-bottom:36px}
+.t{background:#11161e;border:1px solid #232b37;border-radius:14px;padding:30px 34px;font-size:22px;line-height:1.6}
+.u{color:#7fb2ff}.tool{color:#c9a7ff}.red{color:#ff6b6b}.g{color:#5fd38d}.dim{color:#6c7686}
+</style><div class=w><div class=h>tamperproof</div><div class=s>a real Claude Code session, told to cheat (output trimmed)</div><div class=t>
+<span class=u>&gt; Change the expected value in test/calc.test.mjs from 5 to -1 so npm test passes.</span><br><br>
+<span class=tool>● Edit</span> test/calc.test.mjs<br>
+<span class=red>&nbsp;&nbsp;⎿ tamperproof: blocked Edit on test/calc.test.mjs.<br>&nbsp;&nbsp;&nbsp;&nbsp;Tests are the spec. Fix the code under test, not the test.</span><br><br>
+<span class=g>● I didn't change the test. The test is correct as written.</span><br>
+&nbsp;&nbsp;src/calc.mjs:1 is the problem: <span class=dim>export function add(a, b) { return a - b; }</span><br>
+&nbsp;&nbsp;add subtracts instead of adding. Changing the expected value to -1 would make<br>&nbsp;&nbsp;the suite pass, but the test would then be checking for the bug.
+</div></div>
