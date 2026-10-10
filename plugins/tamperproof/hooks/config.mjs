@@ -8,6 +8,9 @@ export const DEFAULT_PROTECT = [
   "tests/**", "test/**", "__tests__/**", "spec/**", "e2e/**",
   "**/*.test.*", "**/*.spec.*", "**/*_test.go", "**/*_test.py", "**/test_*.py",
   "**/tests/**", "**/__tests__/**", "**/__snapshots__/**", "**/*.snap",
+  // where expected values often live outside the test files themselves
+  "**/test/resources/**", "fixtures/**", "**/fixtures/**", "testdata/**", "**/testdata/**",
+  "golden/**", "**/golden/**", "**/*.golden", "**/expected/**",
   ".tamperproof.json",
 ];
 
